@@ -1,0 +1,126 @@
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    color: black;
+}
+
+.parent-menu{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    position: sticky;
+}
+
+#top-page{
+    
+    width: 100%;
+    height: 150px;
+    border-bottom: 0.3px solid rgb(175, 175, 175);
+    text-align: left;
+    
+    
+}
+.app-text{
+    margin-top: 100px;
+    margin-left: 10px;
+    
+    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #f2f2f2;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    backdrop-filter: blur(2px);
+    
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  .navbar a.active {
+    
+    color: rgb(0, 0, 0);
+  }
+
+.home-icon{
+    width: 25px;
+}
+#middle-page{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.app{
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 0.3px solid rgb(180, 180, 180);
+    display: flex;
+    padding: 10px;
+}
+.no-logo{
+    width:64px;
+    height:64px;
+    border-radius: 15px;
+    
+    
+}
+.get{
+    font-style: bold;
+    font-weight: 500;
+    width: 15%;
+    height: 100%;
+    background-color : #f0f0f0;
+    backdrop-filter: blur(2px);
+    color: rgb(0, 110, 255);
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.app-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.home-image{
+    background-image: url("assets/ipalibbackground\(1\).jpg");
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
